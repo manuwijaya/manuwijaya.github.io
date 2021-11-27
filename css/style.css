@@ -1,0 +1,89 @@
+.one {
+  background-color: #7fffd4;
+}
+.two {
+  background-color: #273036;
+}
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 26px;
+}
+
+* {
+  font-family: "Teko", sans-serif;
+  font-size: 19px;
+  word-spacing: 2px;
+}
+
+nav {
+  font-size: 20px;
+}
+
+.img-box img {
+  width: 300px;
+}
+.caption p {
+  font-size: 20px;
+}
+.icon a {
+  font-size: 42px;
+  color: black;
+}
+.icon a:hover {
+  color: blue;
+}
+.jumbotron {
+  padding-top: 60px;
+  margin-bottom: -60px;
+}
+.data-personal a {
+  font-size: 40px;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.data-personal a:hover {
+  color: rgb(74, 210, 255);
+}
+.to-up {
+  bottom: 40px;
+  right: 40px;
+  position: fixed;
+  color: white;
+  font-size: 40px;
+  opacity: 0;
+}
+.to-up:hover {
+  color: blue;
+}
+.to-up.muncul {
+  opacity: 1;
+}
+.to-up.hide {
+  opacity: 0;
+}
+#project {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+#skills {
+  padding-bottom: 90px;
+}
+
+section {
+  padding-top: 10rem;
+}
+
+@media (max-width: 576px) {
+  .img-box img {
+    width: 200px;
+  }
+  .caption p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .jumbotron {
+    padding-top: 10px;
+    margin-bottom: -10px;
+  }
+}
