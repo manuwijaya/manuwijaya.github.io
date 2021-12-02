@@ -34,7 +34,7 @@ nav {
 }
 .jumbotron {
   padding-top: 60px;
-  margin-bottom: -60px;
+  margin-bottom: -100px;
 }
 .data-personal a {
   font-size: 40px;
@@ -67,13 +67,8 @@ nav {
   padding-bottom: 90px;
 }
 #skills {
-  padding-bottom: 90px;
+  margin-bottom: -60px;
 }
-
-section {
-  padding-top: 10rem;
-}
-
 @media (max-width: 576px) {
   .img-box img {
     width: 200px;
