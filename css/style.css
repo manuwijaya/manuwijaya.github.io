@@ -33,7 +33,6 @@ nav {
   color: blue;
 }
 .jumbotron {
-  padding-top: 60px;
   margin-bottom: -100px;
 }
 .data-personal a {
@@ -66,9 +65,7 @@ nav {
   padding-top: 30px;
   padding-bottom: 90px;
 }
-#skills {
-  margin-bottom: -60px;
-}
+
 @media (max-width: 576px) {
   .img-box img {
     width: 200px;
